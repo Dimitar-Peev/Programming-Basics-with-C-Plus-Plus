@@ -12,5 +12,7 @@ int main()
 	string message = "You are " + firstName + ' ' + lastName + ", a " + to_string(age) + "-years old person from " + town + '.';
 
 	cout << message << endl;
+    // Option 2
+ // cout << "You are " << firstName << " " << lastName << ", a " << age << "-years old person from " << town << "." << endl;
 	return 0;
 }
