@@ -15,7 +15,7 @@
 <ol>
 	<li> Преговор </li>
 	<li> Логически изрази и проверки </li>
-		<ul style="list-style-type: square;">
+		<ul type="square">
 			<li> Оператори за сравнение </li>
 		</ul>
 	<li> Условни кострукции </li>
