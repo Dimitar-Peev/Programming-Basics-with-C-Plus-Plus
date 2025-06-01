@@ -1,0 +1,32 @@
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+
+int main() {
+    int n;
+    cin >> n;
+
+    int leftSum = 0;
+    int rightSum = 0;
+    int number;
+
+    for (int i = 0; i < 2 * n; i++) {
+        cin >> number;
+        if (i < n) {
+            leftSum += number;
+        }
+        else {
+            rightSum += number;
+        }
+    }
+
+    if (leftSum == rightSum) {
+        cout << "Yes, sum = " << leftSum << endl;
+    }
+    else {
+        cout << "No, diff = " << abs(leftSum - rightSum) << endl;
+    }
+
+    return 0;
+}
