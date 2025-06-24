@@ -9,8 +9,8 @@ int main() {
     int adultTickets, childTickets;
     double netPriceAdult, serviceFee;
 
-    //getline(cin, airline);
-    cin >> airline >> adultTickets >> childTickets >> netPriceAdult >> serviceFee;
+    getline(cin, airline);
+    cin >> adultTickets >> childTickets >> netPriceAdult >> serviceFee;
 
     double netPriceChild = netPriceAdult * 0.30;
 
